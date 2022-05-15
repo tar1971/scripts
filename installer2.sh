@@ -2,7 +2,7 @@
 #
 #command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer2.sh -O - | /bin/sh
 
-wget -O /var/volatile/tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
+wget -O /var/tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
 tar xzvpf /tmp/*.tar.gz  -C /
 wait
