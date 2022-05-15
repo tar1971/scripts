@@ -6,7 +6,7 @@ wget -O /var/tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/scr
 wait
 tar xzvpf /tmp/*.tar.gz  -C /
 wait
-rm -r /var/volatile/tmp/script.tar.gz                         
+rm -r /var/tmp/script.tar.gz                         
 
 echo "========================================================================"
 echo " chmod  all scripts "
