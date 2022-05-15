@@ -1,6 +1,6 @@
 #!/bin/sh
  # 
-#command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer.sh -O - | /bin/sh
+#Command=wget https://raw.githubusercontent.com/tar1971/scripts/main/installer.sh -O - | /bin/sh
  # # 
 cd /var/volatile/tmp
 set -e 
