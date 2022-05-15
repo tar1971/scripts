@@ -1,12 +1,16 @@
 #!/bin/sh
 #
-#command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer2.sh -O - | /bin/sh
+#command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer1.sh -O - | /bin/sh
 
-wget -O /tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
-echo
-tar xzvpf /tmp/*.tar.gz  -C /
+wget -O /usr/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
-rm -r /var/tmp/script.tar.gz                         
+#!/bin/sh
+#
+tar xzvpf /tmp/script.tar.gz
+wait
+#!/bin/sh
+#
+rm -r /tmp/script.tar.gz                         
 
 echo "========================================================================"
 echo " chmod  all scripts "
@@ -22,6 +26,12 @@ echo "#########################################################"
 wait
 sleep 2
 exit 0
+
+
+
+
+
+
 
 
 
