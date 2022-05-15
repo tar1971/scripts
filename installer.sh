@@ -4,7 +4,7 @@
  # # 
 cd /var/volatile/tmp
 set -e 
-wget tar -xzf script.tar.gz  -C /"https://raw.githubusercontent.com/tar1971/scripts/main/script.tar.gz"
+wget "https://raw.githubusercontent.com/tar1971/scripts/main/script.tar.gz"
 wait
 tar -xzf script.tar.gz  -C /
 wait
