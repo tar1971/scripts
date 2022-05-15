@@ -4,7 +4,7 @@
  # # 
 cd /var/volatile/tmp
 set -e 
-wget "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
+wget "https://raw.githubusercontent.com/tar1971/scripts/main/script.tar.gz"
 wait
 tar -xzf script.tar.gz  -C /
 wait
@@ -18,3 +18,6 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
+
+
