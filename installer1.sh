@@ -2,7 +2,7 @@
 #
 #command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer1.sh -O - | /bin/sh
 
-wget -O /tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
+wget -O /usr/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
 #!/bin/sh
 #
