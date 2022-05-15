@@ -4,9 +4,9 @@
 
 wget -O /usr/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
-tar xzvpf /tmp/*.tar.gz  -C /
+tar xzvpf /usr/*.tar.gz  -C /
 wait
-rm -r /var/volatile/tmp/script.tar.gz                         
+rm -r /usr/script.tar.gz                         
 
 echo "========================================================================"
 echo " chmod  all scripts "
