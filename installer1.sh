@@ -6,7 +6,7 @@ wget -O /tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.
 wait
 #!/bin/sh
 #
-tar xzvpf /tmp/*.tar.gz  -C /
+tar xzvpf /tmp/script.tar.gz
 wait
 #!/bin/sh
 #
