@@ -2,15 +2,15 @@
 #
 #command wget https://raw.githubusercontent.com/tar1971/scripts/main/installer1.sh -O - | /bin/sh
 
-wget -O /usr/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
+wget -O /tmp/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
 #!/bin/sh
 #
-tar xzvpf /usr/*.tar.gz  -C /
+tar xzvpf /tmp/*.tar.gz  -C /
 wait
 #!/bin/sh
 #
-rm -r /usr/script.tar.gz                         
+rm -r /tmp/script.tar.gz                         
 
 echo "========================================================================"
 echo " chmod  all scripts "
