@@ -4,8 +4,10 @@
 
 wget -O /usr/script.tar.gz "https://github.com/tar1971/scripts/blob/main/script.tar.gz?raw=true"
 wait
+echo
 tar xzvpf /usr/*.tar.gz  -C /
 wait
+echo
 rm -r /usr/script.tar.gz                         
 
 echo "========================================================================"
